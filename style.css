@@ -1,0 +1,262 @@
+#name-header {
+	color: white;
+	font-size: 100;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.sidebar {
+	margin: 0;
+    padding: 0;
+    width: 13.0%;
+    background-color: #e6c300;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-style: none dashed none none;
+    border-color: blue;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    z-index: 1;
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    padding: 40px 0 8px 20px;
+    text-decoration: none;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 26;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.nostyle {
+  color: #000;
+  text-decoration: none;
+}
+
+.nostyle:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nostyle:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.nostyle:focus {
+	color: #000;
+	text-decoration: none;
+}
+
+#main-page {
+	
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7b/MichiganStadium2010.JPG);
+	/*background-image: url(imgs/stadium.jpg); */
+	background-repeat: no-repeat;
+    
+    float: left;
+    height: 100%;
+    width: 87%;
+    overflow: auto;
+    background-size: cover;
+	top: 0;
+	left: 0;
+	position: relative;
+    margin-left: 13%;
+    display: block;
+}
+
+.curtain::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  opacity: .2;
+  background-color: black;
+}
+
+.segment {
+
+	background-color: #94d1cf;/*afcecf*/
+
+	float: left;
+	width: 87%;
+	overflow: auto;
+	top: 0;
+	left: 0;
+	position: relative;
+	margin-left: 13%;
+	display: block;
+
+	color: black;
+	font-size: 45;
+	text-align: center;
+	font-family: 'Arvo', serif;
+
+}
+
+.about-height {
+	height: 90%;
+}
+
+.mypath-height {
+	height: 120%;
+}
+
+.projects-height {
+	height: 140%;
+}
+
+.contact-height {
+	height: 60%;
+}
+
+.nospace {
+	padding: 40px 0 8px 3px;
+	letter-spacing: 0px
+
+}
+
+.circle-img {
+	border-radius: 50%;
+}
+
+.path-circle {
+	color: green;
+}
+
+.inline {
+	display: inline-block;
+	text-align: center;
+}
+
+.college {
+	text-align: left;
+	margin-left: 10%;
+}
+
+.eecs183 {
+	display: inline-block;
+	width: 32%;
+}
+
+.finalmsft {
+	text-align: right;
+	margin-right: 10%;
+}
+
+.text {
+	font-size: 18;
+}
+
+.big-deal {
+	font-size: 22;
+	font-style: bold;
+}
+
+.pdf-btn {
+	font-size: 18;
+	color: #4169E1;
+}
+
+.blockM {
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 16px;
+}
+
+.smaller {
+	font-size: 14;
+}
+
+.mypath-text {
+	font-size: 16;
+}
+
+.detail {
+	font-size: 16;
+}
+
+.smaller-link {
+	font-size: 18;
+}
+
+.contacting {
+	display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-bottom: .25em;
+}
+
+.mypath {
+	display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding-bottom: .25em;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.mypath-header {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 26;
+	font-style: bold;
+}
+
+.blurb {
+	font-family: 'Indie Flower', cursive;
+	font-size: 22;
+}
+
+.break {
+	display: block;
+	padding-top: 15px;
+}
+.break2 {
+	display: block;
+	padding-top: 5px;
+}
+
+.break3{
+	display: block;
+	padding-top: 25px;
+}
+
+.break4 {
+	display: block;
+	padding-top: 80px;
+}
+
+.break5 {
+	display: block;
+	padding-top: 120px;
+}
+
+.pad-under{
+	padding-bottom: 20px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.leftwards {
+	text-align: left;
+}
+
+.contact-spacing {
+	padding-top: 30px;
+}
+
+body {
+	margin: 0;
+	top: 0;
+	display: block;
+}
