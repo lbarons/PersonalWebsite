@@ -87,7 +87,8 @@ li a {
 
 	float: left;
 	width: 87%;
-	overflow: hidden;
+	overflow: auto;
+	overflow-y: hidden;
 	top: 0;
 	left: 0;
 	position: relative;
