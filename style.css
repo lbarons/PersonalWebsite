@@ -240,6 +240,10 @@ li a {
 	text-align: left;
 }
 
+.indentlist {
+	margin-left: 1em;
+}
+
 .contact-spacing {
 	padding-top: 30px;
 }
