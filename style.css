@@ -116,7 +116,7 @@ li a {
 	border-radius: 50%;
 }
 
-.path-circle {
+.experience-circle {
 	color: green;
 }
 
@@ -164,7 +164,7 @@ li a {
 	font-size: 14;
 }
 
-.mypath-text {
+.myexperience-text {
 	font-size: 16;
 }
 
@@ -183,7 +183,7 @@ li a {
     padding-bottom: .25em;
 }
 
-.mypath {
+.myexperience {
 	display: inline-block;
     width: 45%;
     text-align: center;
@@ -192,7 +192,7 @@ li a {
 	font-weight: 300;
 }
 
-.mypath-header {
+.myexperience-header {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 26;
